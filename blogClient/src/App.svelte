@@ -15,5 +15,6 @@ const clearPosts= async ()=>{
 
   <BlogList />
   <PostEntry />
+  <br />
   <button on:click={clearPosts}>Clear All posts</button>
 </PageWrapper>

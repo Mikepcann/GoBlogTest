@@ -34,6 +34,7 @@
     <textarea  name="body" bind:value={body} cols="50" rows="10" maxlength="200"/>   
    
 </section>
+ <br />
 <button on:click={submitValues}>Submit the blog</button>
 
 <style>
